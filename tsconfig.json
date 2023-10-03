@@ -19,5 +19,9 @@
         "module": "CommonJS",
 
       }
-    }
+    },
+    //   // In tsconfig.json
+    // "include": [
+    //   "./config/jest/setupTests.ts"
+    // ],
   }
