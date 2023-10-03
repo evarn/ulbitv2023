@@ -20,8 +20,10 @@
 
       }
     },
-    //   // In tsconfig.json
-    // "include": [
-    //   "./config/jest/setupTests.ts"
-    // ],
+      // In tsconfig.json
+    "include": [
+      "./config/jest/setupTests.ts",
+      "./src/**/*.ts",
+      "./src/**/*.tsx",
+    ],
   }
