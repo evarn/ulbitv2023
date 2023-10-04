@@ -43,7 +43,7 @@ module.exports = {
         'import/no-extraneous-dependencies': 'off',
         'no-underscore-dangle': 'off',
         'i18next/no-literal-string': 'off',
-        'max-len': ['error', { ignoreComments: true, code: 100 }],
+        'max-len': ['error', { ignoreComments: true, code: 120 }],
         'no-string-literal': 'off',
         '@typescript-eslint/consistent-type-assertions': 'warn',
         'react-hooks/rules-of-hooks': 'error',
