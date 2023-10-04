@@ -8,7 +8,6 @@ interface LoginByUsernameProps {
     password: string;
 }
 
-// eslint-disable-next-line max-len
 export const loginByUsername = createAsyncThunk<User, LoginByUsernameProps, { rejectValue: string }>(
     'login/loginByUsername',
     async (authData, thunkAPI) => {
