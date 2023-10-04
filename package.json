@@ -21,7 +21,8 @@
     "test:ui:ci": "loki --requireReference --reactUri file:./storybook-static",
     "test:ui:report": "npm run test:ui:json && test:ui:html",
     "test:ui:json": "node scripts/generate-visual-json-report.js",
-    "test:ui:html": "reg-cli --from .loki/report.json --report .loki/report.html"
+    "test:ui:html": "reg-cli --from .loki/report.json --report .loki/report.html",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -85,7 +86,8 @@
     "typescript": "^5.2.2",
     "webpack": "^5.88.2",
     "webpack-cli": "^4.10.0",
-    "webpack-dev-server": "^4.10.0"
+    "webpack-dev-server": "^4.10.0",
+    "husky": "^8.0.0"
   },
   "dependencies": {
     "@babel/preset-react": "^7.22.15",
