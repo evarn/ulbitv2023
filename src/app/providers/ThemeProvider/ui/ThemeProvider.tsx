@@ -7,7 +7,7 @@ interface ThemeProviderProps {
     initialTheme?: Theme;
 }
 
-const ThemeProvide: FC<ThemeProviderProps> = (props) => {
+const ThemeProvider: FC<ThemeProviderProps> = (props) => {
     const {
         initialTheme,
         children,
@@ -27,4 +27,4 @@ const ThemeProvide: FC<ThemeProviderProps> = (props) => {
     );
 };
 
-export default ThemeProvide;
+export default ThemeProvider;
