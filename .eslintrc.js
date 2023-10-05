@@ -43,7 +43,6 @@ module.exports = {
         'import/no-extraneous-dependencies': 'off',
         'no-underscore-dangle': 'off',
         'i18next/no-literal-string': 'off',
-        'max-len': ['error', { ignoreComments: true, code: 120 }],
         'no-string-literal': 'off',
         '@typescript-eslint/consistent-type-assertions': 'warn',
         'react-hooks/rules-of-hooks': 'error',
@@ -52,6 +51,7 @@ module.exports = {
         'jsx-a11y/no-static-element-interactions': 'warn',
         'no-param-reassign': 'off',
         'no-undef': 'off',
+        'max-len': 'off',
     },
     globals: {
         __IS_DEV__: true,
@@ -63,6 +63,7 @@ module.exports = {
             files: ['**/src/**/*.test.{ts,tsx}'],
             rules: {
                 'i18next/no-literal-string': 'off',
+                'max-len': 'off',
             },
         },
     ],
