@@ -53,6 +53,7 @@ module.exports = {
         'no-undef': 'off',
         'max-len': 'off',
         'react/no-array-index-key': 'warn',
+        'arrow-body-style': 'warn',
     },
     globals: {
         __IS_DEV__: true,
